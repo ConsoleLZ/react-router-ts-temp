@@ -1,10 +1,10 @@
-import './index.scss';
+import styles from './index.module.scss';
 
 function Error() {
 	return (
 		<>
 			<div>404</div>
-			<p className="style-isolated">样式隔离</p>
+			<p className={styles.styleIsolated}>样式隔离</p>
 		</>
 	);
 }

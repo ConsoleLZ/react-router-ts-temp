@@ -1,14 +1,14 @@
 import reactLogo from '@/assets/react.svg';
-import './index.scss';
+import styles from './index.module.scss';
 
 function Home() {
 	return (
 		<>
-			<div className="title">
+			<div className={styles.title}>
 				<img src={reactLogo} alt="" />
 				小哲自制react模板
 			</div>
-			<p className="style-isolated">样式隔离</p>
+			<p className={styles.styleIsolated}>样式隔离</p>
 		</>
 	);
 }

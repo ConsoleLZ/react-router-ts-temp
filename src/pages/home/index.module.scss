@@ -2,10 +2,12 @@
 	color: rgb(59, 59, 234);
 	display: flex;
 	align-items: center;
+	
+	img {
+		width: 24px;
+	}
 }
-img {
-	width: 24px;
-}
-.style-isolated {
+
+.styleIsolated {
     color: red;
-}
+} 
