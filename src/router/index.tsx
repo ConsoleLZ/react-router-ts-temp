@@ -1,15 +1,19 @@
-import { createBrowserRouter } from 'react-router-dom';
+import { createBrowserRouter, Navigate } from 'react-router-dom';
 import Home from '@/pages/home';
 import Error from '@/pages/404';
 
 const router = createBrowserRouter([
 	{
 		path: '/',
-		element: Home()
+		element: <Home />
 	},
 	{
 		path: '/404',
-		element: Error()
+		element: <Error />
+	},
+	{
+		path: '*',
+		element: <Navigate to="/404" replace />
 	}
 ]);
 
