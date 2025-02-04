@@ -2,4 +2,4 @@
 
 一个很完整的架构：
 
-vite + ts + sass + eslint + prettier + husky
+vite + ts + sass + router + eslint + prettier + husky
